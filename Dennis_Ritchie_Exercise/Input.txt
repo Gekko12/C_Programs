@@ -1,0 +1,4 @@
+The C programming language was developed in 1978 by Dennis M. Ritchie .
+C is a general purpose language and originally implemented in UNIX operating system .
+C is a relatively a " low level " language . 
+There is no heap or garbage collection .

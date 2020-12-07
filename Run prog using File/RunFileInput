@@ -1,0 +1,8 @@
+val = 1024
+
+We can compile using :-  gcc -o binaryFile prog_name.c
+Run :-  ./binaryFile < Input_file_name
+ //extension  not required if file is savedd without .txt else required
+ 
+ That's how we provide input from file without using console and FILE *ptr .
+ 
