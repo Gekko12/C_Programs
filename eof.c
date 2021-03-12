@@ -4,6 +4,6 @@ int main(){
   while(getchar()!=EOF){
     ++nc;
   }
-  printf("%d\n",nc);
+  printf("Number of chars including white spaces : %d\n",nc);
   return 0;
 }
