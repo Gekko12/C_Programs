@@ -9,7 +9,7 @@
 void unsigned_range(long);
 void signed_range(long);
 
-unsigned long two_pow(long);
+unsigned long long two_pow(long);
 
 int main()
 {
@@ -64,11 +64,11 @@ void signed_range(long n)
   printf("%ld to +%lu ",(from*(-1L)) ,to);
 }
 
-unsigned long two_pow(long n)
+unsigned long long two_pow(long n)
 {
- unsigned long p = 1;
+ unsigned long long p = 1;
 
-  for(unsigned long i = 1;i <= n;i++)
+  for(unsigned long long i = 1;i <= n;i++)
     p *= 2;
   
   return p;
